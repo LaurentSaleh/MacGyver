@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import pygame
 pygame.init()
-from game import Game   
+from game import Game
 
 # 1 Setting the scene
 # open window
@@ -31,7 +31,7 @@ while frame:
     pygame.display.flip()
 
     # if the player close the window
-    if event in pygame.event.get():
+    for event in pygame.event.get():
         # event being closure of the window
         if event.type == pygame.QUIT:
             frame = False
