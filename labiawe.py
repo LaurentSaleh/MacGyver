@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import pygame
 pygame.init()
+from game import Game   
 
 # 1 Setting the scene
 # open window
@@ -9,7 +10,10 @@ pygame.display.set_caption("Aaahmazeiiing !")
 screen = pygame.display.set_mode((600, 600))
 
 # load the maze frame
-background = pygame.image.load('/Users/laurentsaleh1/Documents/GitHub/MacGyver/ressource/maze.png')
+background = pygame.image.load('ressource/maze.png')
+
+# load hero
+hero = Hero()
 
 # display the maze frame
 frame = True
@@ -19,6 +23,9 @@ while frame:
 
     # load background
     screen.blit(background, (0,0))
+
+    # load hero
+    screen.blit(game.hero.image, game.hero.rect)
 
     # Update the screen
     pygame.display.flip()
@@ -33,19 +40,22 @@ while frame:
 
 # close maze when Quit
 
-# 1 - Créer le cadre de départ
-# Commencez par créer le labyrinthe sans l’interface graphique. Quand la logique de votre labyrinthe est faite, utilisez le module PyGame pour dessiner l’interface graphique.
-# La fenêtre du jeu sera un carré pouvant afficher 15 sprites sur la longueur.
-# La structure (départ, emplacement des murs, arrivée), devra être enregistrée dans un fichier pour la modifier facilement au besoin.
+#2 - Setting the caracters
+    #2-1 Create class hero
+        #load hero on the screen at starting point
+        #enable hero movements
+        #calculate hero status
+        #Update the screen
+    #2-2 Create class badguy
+        # load hero on the screen at finish
+        # Update the screen
 
-# Puis intéressez-vous aux trois éléments principaux du jeu : le gardien, MacGyver et les objets. Comment les représenter dans votre programme ? Où sont-ils placés au commencement du jeu ?
-# Les objets seront répartis aléatoirement dans le labyrinthe et changeront d’emplacement si l'utilisateur ferme le jeu et le relance.
+# 3 Create class tools
+        # Upload tools (sringe, needle, ether) at random place, start and finish excluded
+        # Update the screen
 
-# 2 - Animer le personnage. Le seul élément mouvant est MacGyver. Créez les méthodes de classe qui permettent de l'animer et de trouver la sortie. Pour l'instant, faites une version simplifiée du jeu dans laquelle MacGyver gagne en arrivant face au gardien.
-# MacGyver sera contrôlé par les touches directionnelles du clavier.
-
-# 3 - Récupérer les objets Ajoutez la gestion des objets. Comment MacGyver les ramasse-t-il ?  Ajoutez également un compteur qui les listera.
-# Il récupèrera un objet simplement en se déplaçant dessus.
-
-# 4 - Gagner ! Enfin, changez la fin du jeu : MacGyver gagne s'il a bien ramassé tous les objets et endormi le garde. Sinon, il perd.
-# Le programme s'arrête uniquement si MacGyver a bien récupéré tous les objets et trouvé la sortie du labyrinthe. S'il n'a pas tous les objets et qu'il se présente devant le garde, il meurt (la vie est cruelle pour les héros).
+# 4 Create class game
+        # Load maze matrix
+        # Set hero position rect
+        # Compare hero position from badguy and if status = 3 AND rect <= 1, then display "win" screen, if not display "RIP" screen (end game)
+        # Compare hero position from tools and if rect <= 1, then gives tools (update hero status)

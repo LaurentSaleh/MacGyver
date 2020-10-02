@@ -29,6 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ddb65c-ff0f-429c-9524-db09f312c7c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labiawe.py" beforeDir="false" afterPath="$PROJECT_DIR$/labiawe.py" afterDir="false" />
     </list>
