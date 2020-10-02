@@ -1,7 +1,7 @@
 import pygame
 from hero import Hero
 
-class game
+class Game:
 
     def __init__(self):
         self.hero = Hero()

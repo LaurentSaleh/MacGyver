@@ -12,8 +12,8 @@ screen = pygame.display.set_mode((600, 600))
 # load the maze frame
 background = pygame.image.load('ressource/maze.png')
 
-# load hero
-hero = Hero()
+# load game
+game = Game()
 
 # display the maze frame
 frame = True
