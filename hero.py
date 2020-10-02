@@ -8,5 +8,5 @@ class Hero(pygame.sprite.Sprite):
         self.velocity = 40
         self.image = pygame.image.load('ressource/MacGyver.png')
         self.rect = self.image.get_rect()
-        self.rect.x = 320
+        self.rect.x = 280
         self.rect.y = 0
