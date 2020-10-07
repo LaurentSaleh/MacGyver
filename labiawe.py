@@ -27,6 +27,16 @@ while frame:
     # load hero
     screen.blit(game.hero.image, game.hero.rect)
 
+    # check hero movement
+    if game.pressed.get(pygame.K_RIGHT):
+        game.hero.move_right()
+    elif game.pressed.get(pygame.K_LEFT):
+        game.hero.move_left()
+    elif game.pressed.get(pygame.K_DOWN):
+        game.hero.move_down()
+    elif game.pressed.get(pygame.K_UP):
+        game.hero.move_up()
+
     # Update the screen
     pygame.display.flip()
 
@@ -36,13 +46,17 @@ while frame:
         if event.type == pygame.QUIT:
             frame = False
             pygame.quit()
-
+        # enabling hero movement by checking if key is released
+        elif event.type == pygame.KEYDOWN:
+           game.pressed[event.key] = True
+        elif event.type == pygame.KEYUP:
+           game.pressed[event.key] = False
 
 # close maze when Quit
 
-#2 - Setting the caracters
-    #2-1 Create class hero
-        #load hero on the screen at starting point
+#2 - Setting the caracters done
+    #2-1 Create class hero done
+        #load hero on the screen at starting point done
         #enable hero movements
         #calculate hero status
         #Update the screen

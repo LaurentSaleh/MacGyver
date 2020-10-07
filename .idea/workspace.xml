@@ -29,7 +29,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87ddb65c-ff0f-429c-9524-db09f312c7c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/stuff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labiawe.py" beforeDir="false" afterPath="$PROJECT_DIR$/labiawe.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.labiawe">
     <configuration name="labiawe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -146,22 +156,22 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="318" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1601050708870" />
-    <state width="1266" height="196" key="GridCell.Tab.0.bottom" timestamp="1601657571171">
+    <state width="1259" height="196" key="GridCell.Tab.0.bottom" timestamp="1601658241198">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1266" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601657571171" />
-    <state width="1266" height="196" key="GridCell.Tab.0.center" timestamp="1601657571168">
+    <state width="1259" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601658241198" />
+    <state width="1259" height="196" key="GridCell.Tab.0.center" timestamp="1601658241197">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1266" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601657571168" />
-    <state width="1266" height="196" key="GridCell.Tab.0.left" timestamp="1601657571167">
+    <state width="1259" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601658241197" />
+    <state width="1259" height="196" key="GridCell.Tab.0.left" timestamp="1601658241196">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1266" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601657571167" />
-    <state width="1266" height="196" key="GridCell.Tab.0.right" timestamp="1601657571169">
+    <state width="1259" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601658241196" />
+    <state width="1259" height="196" key="GridCell.Tab.0.right" timestamp="1601658241198">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1266" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601657571169" />
+    <state width="1259" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601658241198" />
     <state x="141" y="40" key="SettingsEditor" timestamp="1601657536189">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
