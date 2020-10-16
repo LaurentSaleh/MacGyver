@@ -28,7 +28,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87ddb65c-ff0f-429c-9524-db09f312c7c3" name="Default Changelist" comment="" />
+    <list default="true" id="87ddb65c-ff0f-429c-9524-db09f312c7c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/MacGyver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MacGyver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +64,7 @@
       <recent name="$PROJECT_DIR$/venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.labiawe">
+  <component name="RunManager" selected="Python.test_main">
     <configuration name="labiawe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MacGyver" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,8 +107,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Cours4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Cours4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Cours4/test_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_main" />
         <item itemvalue="Python.labiawe" />
         <item itemvalue="Python.paapa" />
       </list>
@@ -150,25 +176,25 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="318" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1280.777@0.23.1280.777" timestamp="1601050708870" />
-    <state width="1259" height="196" key="GridCell.Tab.0.bottom" timestamp="1601658241198">
+    <state width="1259" height="196" key="GridCell.Tab.0.bottom" timestamp="1602345208061">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1601658241198" />
-    <state width="1259" height="196" key="GridCell.Tab.0.center" timestamp="1601658241197">
+    <state width="1259" height="196" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1602345208061" />
+    <state width="1259" height="196" key="GridCell.Tab.0.center" timestamp="1602345208059">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1601658241197" />
-    <state width="1259" height="196" key="GridCell.Tab.0.left" timestamp="1601658241196">
+    <state width="1259" height="196" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1602345208059" />
+    <state width="1259" height="196" key="GridCell.Tab.0.left" timestamp="1602345208059">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1601658241196" />
-    <state width="1259" height="196" key="GridCell.Tab.0.right" timestamp="1601658241198">
+    <state width="1259" height="196" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1602345208059" />
+    <state width="1259" height="196" key="GridCell.Tab.0.right" timestamp="1602345208060">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1259" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1601658241198" />
-    <state x="141" y="40" key="SettingsEditor" timestamp="1601657536189">
+    <state width="1259" height="196" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1602345208060" />
+    <state x="141" y="40" key="SettingsEditor" timestamp="1602345149905">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="141" y="40" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1601657536189" />
+    <state x="141" y="40" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1602345149905" />
   </component>
 </project>
